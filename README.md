@@ -1,1 +1,1 @@
-# Minecraft-Auto-Modder-v1
+This version is not being updated anymore. Also will not function any more.
