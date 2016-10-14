@@ -1,0 +1,282 @@
+<?xml version="1.0" ?>
+<resource class="wxButton">
+  <object class="wxFrame" name="frame">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxPanel" name="panel">
+              <object class="wxBoxSizer">
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <object class="sizeritem">
+                              <object class="wxStaticText">
+                                <label>Minecraft Folder Location:</label>
+                                <font>
+                                  <size>9</size>
+                                  <style>normal</style>
+                                  <weight>normal</weight>
+                                  <underlined>0</underlined>
+                                  <family>swiss</family>
+                                  <face>Segoe UI</face>
+                                  <encoding>WINDOWS-1252</encoding>
+                                </font>
+                              </object>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <object class="spacer">
+                              <size>5,0</size>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="mc_folder_tc">
+                                <size>200,20</size>
+                                <style>wxTE_NO_VSCROLL|wxTE_READONLY|wxTE_DONTWRAP</style>
+                              </object>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <object class="spacer">
+                              <size>5,0</size>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxButton" name="mc_browse_btn">
+                                <label>Browse</label>
+                              </object>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <orient>wxHORIZONTAL</orient>
+                          </object>
+                          <option>0</option>
+                          <flag>wxALIGN_CENTRE_HORIZONTAL</flag>
+                        </object>
+                        <object class="spacer">
+                          <size>0,5</size>
+                          <flag>wxALIGN_CENTRE</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="mc_exe_lbl">
+                                <label>Minecraft.exe File Location:</label>
+                                <font>
+                                  <size>9</size>
+                                  <style>normal</style>
+                                  <weight>normal</weight>
+                                  <underlined>0</underlined>
+                                  <family>swiss</family>
+                                  <face>Segoe UI</face>
+                                  <encoding>WINDOWS-1252</encoding>
+                                </font>
+                              </object>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <object class="spacer">
+                              <size>5,0</size>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="mc_exe_tc">
+                                <size>200,20</size>
+                                <style>wxTE_NO_VSCROLL|wxTE_READONLY|wxTE_DONTWRAP</style>
+                              </object>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <object class="spacer">
+                              <size>5,0</size>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxButton" name="mc_browseexe_btn">
+                                <label>Browse</label>
+                              </object>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <orient>wxHORIZONTAL</orient>
+                          </object>
+                          <option>0</option>
+                          <flag>wxALIGN_CENTRE_HORIZONTAL</flag>
+                        </object>
+                      </object>
+                      <flag>wxEXPAND|wxALIGN_CENTRE</flag>
+                    </object>
+                    <object class="spacer">
+                      <size>0,10</size>
+                      <flag>wxALIGN_CENTER</flag>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxStaticBoxSizer">
+                        <label>Server Select</label>
+                        <orient>wxVERTICAL</orient>
+                        <object class="sizeritem">
+                          <object class="wxComboBox" name="server_sel_cb"/>
+                          <flag>wxALIGN_CENTRE</flag>
+                        </object>
+                        <object class="spacer">
+                          <size>0,10</size>
+                          <flag>wxALIGN_CENTER</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="sizeritem">
+                              <object class="wxButton" name="add_srv_btn">
+                                <label>Add
+Server</label>
+                                <enabled>0</enabled>
+                              </object>
+                            </object>
+                            <object class="spacer">
+                              <size>5,0</size>
+                              <flag>wxALIGN_CENTER</flag>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxButton" name="remove_srv_btn">
+                                <label>Remove
+Selected
+Server</label>
+                                <enabled>0</enabled>
+                              </object>
+                            </object>
+                          </object>
+                        </object>
+                      </object>
+                      <flag>wxALIGN_CENTRE</flag>
+                    </object>
+                    <object class="spacer">
+                      <size>0,10</size>
+                      <flag>wxALIGN_CENTER</flag>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="sizeritem">
+                          <object class="wxStaticBoxSizer">
+                            <object class="sizeritem">
+                              <object class="wxCheckListBox" name="optional_chboxlst">
+                                <size>250,55</size>
+                              </object>
+                              <flag>wxALIGN_CENTRE</flag>
+                            </object>
+                            <label>Optional Mods: (Check mods you want.)</label>
+                            <orient>wxVERTICAL</orient>
+                          </object>
+                          <flag>wxALIGN_CENTRE</flag>
+                        </object>
+                      </object>
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      <size>0,10</size>
+                      <flag>wxALIGN_CENTER</flag>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxTextCtrl" name="log_tc">
+                        <size>500,200</size>
+                        <style>wxTE_AUTO_SCROLL|wxTE_MULTILINE|wxTE_READONLY|wxTE_DONTWRAP</style>
+                      </object>
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      <size>0,10</size>
+                      <flag>wxALIGN_CENTER</flag>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxGauge" name="download_gge"/>
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      <size>0,10</size>
+                      <flag>wxALIGN_CENTER</flag>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <object class="sizeritem">
+                                  <object class="wxButton" name="up_btn">
+                                    <label>Update</label>
+                                  </object>
+                                </object>
+                                <object class="spacer">
+                                  <size>0,5</size>
+                                  <flag>wxALIGN_CENTER</flag>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxButton" name="forceup_btn">
+                                    <label>Force
+Update</label>
+                                  </object>
+                                </object>
+                                <orient>wxVERTICAL</orient>
+                              </object>
+                            </object>
+                            <object class="spacer">
+                              <size>30,115</size>
+                              <option>0</option>
+                              <border>8</border>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <object class="sizeritem">
+                                  <object class="wxButton" name="play_btn">
+                                    <label>Play</label>
+                                  </object>
+                                  <flag>wxFIXED_MINSIZE</flag>
+                                </object>
+                                <object class="spacer">
+                                  <size>0,5</size>
+                                  <flag>wxALIGN_CENTER</flag>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxButton" name="exit_btn">
+                                    <label>Exit</label>
+                                  </object>
+                                  <flag>wxFIXED_MINSIZE</flag>
+                                </object>
+                                <orient>wxVERTICAL</orient>
+                              </object>
+                            </object>
+                            <orient>wxHORIZONTAL</orient>
+                          </object>
+                        </object>
+                        <orient>wxVERTICAL</orient>
+                      </object>
+                      <flag>wxALIGN_CENTRE</flag>
+                    </object>
+                  </object>
+                  <option>1</option>
+                  <flag>wxEXPAND|wxALL</flag>
+                  <border>10</border>
+                </object>
+              </object>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND|wxALL</flag>
+            <border>0</border>
+          </object>
+          <orient>wxVERTICAL</orient>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND|wxALL</flag>
+        <border>0</border>
+      </object>
+    </object>
+    <object class="wxStatusBar" name="statusbar">
+      <fields>4</fields>
+    </object>
+    <size>640,520</size>
+    <title>IoTA Minecraft Launcher</title>
+    <style>wxCLIP_CHILDREN|wxCAPTION|wxRESIZE_BORDER</style>
+  </object>
+</resource>
